@@ -744,4 +744,6 @@ footer {
         height: 360px;
     }
     section { padding: 60px 5%; }
+    .cursor-dot, .cursor-outline { display: none !important; }
+    * { cursor: auto !important; }
 }
