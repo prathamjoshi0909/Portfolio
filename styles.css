@@ -732,8 +732,16 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .name { font-size: 3.5rem; }
-    .role { font-size: 1.5rem; }
-    .nav-links { display: none; } /* Could add a hamburger menu in real implementation */
-    section { padding: 80px 5%; }
+    .name { font-size: 2.5rem; }
+    .role { font-size: 1.2rem; }
+    .nav-links { 
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 15px; 
+    }
+    .profile-frame {
+        width: 280px;
+        height: 360px;
+    }
+    section { padding: 60px 5%; }
 }
