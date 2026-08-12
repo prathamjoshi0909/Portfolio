@@ -8,9 +8,10 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome (Local) -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -46,7 +47,7 @@
         <div class="hero-visual reveal-right">
             <div class="profile-frame">
                 <div class="neon-glow"></div>
-                <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=600" alt="Pratham Joshi" class="profile-img">
+                <img src="assets/images/profile.jpg" alt="Pratham Joshi" class="profile-img" width="600" height="600" loading="eager" fetchpriority="high">
             </div>
         </div>
     </header>
@@ -101,22 +102,7 @@
                 </div>
             </div>
 
-           
-
             <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="date">Oct 2024 – Dec 2024</span>
-                    <h3>Programming Instructor — C Language</h3>
-                    <h4>PCET's Nutan Maharashtra Institute of Engineering & Technology</h4>
-                    <ul>
-                        <li>Improved student assessment pass rates by 20% by designing a 10-week C curriculum.</li>
-                        <li>Reduced average student error rate from 14 to under 5 errors per session via daily peer debugging.</li>
-                    </ul>
-                </div>
-            </div>
-
-             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <span class="date">Aug 2023 – Jan 2024</span>
@@ -127,6 +113,19 @@
                         <li>Cut model deployment time by 40% by architecting a cloud-based MLOps platform on AWS EC2 with REST API endpoints and CI/CD workflows.</li>
                         <li>Enabled same-day executive reporting for 3 senior stakeholders with automated Tableau dashboards.</li>
                         <li>Flagged ₹8L+ in anomalous claim patterns through outlier detection and correlation analysis.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">Oct 2024 – Dec 2024</span>
+                    <h3>Programming Instructor — C Language</h3>
+                    <h4>PCET's Nutan Maharashtra Institute of Engineering & Technology</h4>
+                    <ul>
+                        <li>Improved student assessment pass rates by 20% by designing a 10-week C curriculum.</li>
+                        <li>Reduced average student error rate from 14 to under 5 errors per session via daily peer debugging.</li>
                     </ul>
                 </div>
             </div>
